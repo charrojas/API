@@ -55,3 +55,24 @@ Crear un usuario para poder utilizar la aplicación web mediante el endpoint:
 POST /api/Usuario/RegistrarUsuario en Swagger
 
 Este endpoint permite registrar un nuevo usuario con nombre, apellido, usuario y contraseña.
+
+
+## Despliegue en IIS
+
+La API se desplegó exitosamente en **IIS (Internet Information Services)** siguiendo estos pasos:
+
+1. Publicar el proyecto desde Visual Studio 2022 en la carpeta destino para IIS.
+2. Configurar un **sitio web** en IIS apuntando a la carpeta publicada.
+3. Configurar el **Application Pool** con .NET 9 y permisos adecuados.
+4. Verificar que la aplicación se pueda ejecutar desde el navegador.
+5. Confirmar que el frontend puede consumir los endpoints correctamente.
+
+### Ejemplo de uso desde el frontend
+
+Una vez publicada, la API estuvo disponible y el frontend pudo realizar solicitudes a los endpoints sin problemas, como se evidencia en las siguientes capturas:
+
+![Captura de IIS](https://github.com/user-attachments/assets/249e5b88-2922-46e5-bce1-26f9123b44b4)
+
+![Prueba de API desde frontend](https://github.com/user-attachments/assets/130677a1-5e0a-4c16-b792-7086181d7b21)
+
+
