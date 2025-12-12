@@ -17,8 +17,8 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes com
 
 ## Configuración de la base de datos
 
-1. Abrir el archivo `SqlQueryLogicalDataDB.sql` ubicado en:  
-   `src/Core/LogicalData.Data/QueryDB`
+1. Abrir el archivo `DatebaseScheme.sql` ubicado en:  
+   `src/LD.Data/QueryDB` 
 
 2. Copiar todo el contenido del script y pegarlo en **SSMS** en una nueva consulta.
 
